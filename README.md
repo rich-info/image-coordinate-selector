@@ -13,6 +13,8 @@ This project is a simple HTML and JavaScript-based tool that allows users to upl
 - Copy to Clipboard: Click a button to copy the coordinates of all points to the clipboard.
 - Dynamic Tooltip: Displays the real-time X and Y coordinates as the user moves the mouse over the image.
 
+![screenshot](screen.png "screenshot")
+
 ## License
 
 This project is free to use under the MIT License.
