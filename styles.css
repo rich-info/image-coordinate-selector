@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#imageContainer {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#canvas {
+  cursor: crosshair;
+  border: 1px solid #ddd;
+}
+
+#coordinatesList {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+#clearButton,
+#copyButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  pointer-events: none; /* Prevent interference with clicks */
+  transform: translate(-50%, -150%);
+}

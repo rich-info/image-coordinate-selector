@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Coordinates</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>Get coordinates of objects in an image</h3>
+    <h4>Upload an image and click on the image.</h4>
+    <input
+      type="file"
+      id="imageInput"
+      accept="image/png, image/jpeg, image/jpg"
+    />
+
+    <div id="imageContainer">
+      <canvas id="canvas" hidden></canvas>
+      <div id="tooltip" hidden></div>
+    </div>
+
+    <button id="clearButton" hidden>Clear</button>
+    <button id="copyButton" hidden>Copy</button>
+
+    <div id="coordinatesList"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
