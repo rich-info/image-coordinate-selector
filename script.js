@@ -22,6 +22,7 @@ imageInput.addEventListener("change", function (event) {
 
         ctx.drawImage(img, 0, 0);
 
+        imageInput.hidden = true;
         clearButton.hidden = false;
         copyButton.hidden = false;
       };
